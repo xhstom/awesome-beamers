@@ -1,1 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T13:00:16.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.3" etag="tmXlcPtCFzq1Pvh1cwiV" type="github"><diagram id="0_ary9JyTN9Hh20Erqhi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-18T13:01:09.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="0z4jeVLDSKOG4Aut3EHI" version="13.7.3" type="github">
+  <diagram id="0_ary9JyTN9Hh20Erqhi" name="Page-1">
+    <mxGraphModel dx="942" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-1" value="问题一求解思路" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a9LsabY8Fe8hfzVR4AMd-4" target="a9LsabY8Fe8hfzVR4AMd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-4" value="附件三原始数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="180" width="182.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-5" value="预处理后的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="330" width="182.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a9LsabY8Fe8hfzVR4AMd-2" target="a9LsabY8Fe8hfzVR4AMd-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="240" as="sourcePoint" />
+            <mxPoint x="519" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-7" value="删除过多缺失数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-8" value="缺失数据填充" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="238" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-9" value="剔除不在范围内的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-10" value="根据拉依达准则删除异常值数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-11" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a9LsabY8Fe8hfzVR4AMd-7" target="a9LsabY8Fe8hfzVR4AMd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="508" y="230" as="sourcePoint" />
+            <mxPoint x="588" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179" y="240" />
+              <mxPoint x="419" y="240" />
+              <mxPoint x="649" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403" y="230" as="sourcePoint" />
+            <mxPoint x="403" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-13" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9LsabY8Fe8hfzVR4AMd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="131" y="310" as="sourcePoint" />
+            <mxPoint x="659" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="159" y="320" />
+              <mxPoint x="659" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-14" value="与附件一数据比较" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="400" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a9LsabY8Fe8hfzVR4AMd-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403" y="380" as="sourcePoint" />
+            <mxPoint x="400.99999999999994" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-16" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403" y="500" as="sourcePoint" />
+            <mxPoint x="403.4100000000001" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-17" value="符合要求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-18" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="440" as="sourcePoint" />
+            <mxPoint x="509" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-19" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="549" y="439.4100000000001" as="sourcePoint" />
+            <mxPoint x="589" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-20" value="插入附件一" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579" y="415" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-21" value="不符合要求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="508" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-22" value="数据保持不动" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-23" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403.40999999999985" y="560" as="sourcePoint" />
+            <mxPoint x="403.40999999999985" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403.40999999999985" y="610" as="sourcePoint" />
+            <mxPoint x="403" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-25" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="630" as="sourcePoint" />
+            <mxPoint x="644.4099999999999" y="465" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="644" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-26" value="预处理后的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.25" y="650" width="126.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9LsabY8Fe8hfzVR4AMd-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="700" as="sourcePoint" />
+            <mxPoint x="401.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
